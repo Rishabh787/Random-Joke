@@ -1,0 +1,29 @@
+#ask-me {
+    height: 150px;
+    width: 350px;
+    border-radius: 22px;
+    font-size: larger;
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 21px black);
+}
+#ask-me:hover {
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: rotate(30deg);
+}
+body {
+    display: grid;
+    justify-content: center;
+    background: url(smily.gif);
+
+}
+#headingJoke {
+    color: blue;
+    margin-top: 22px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+#headingJoke:hover{
+    transform: rotate(180deg);
+    text-shadow: 2px 1px red;
+}
