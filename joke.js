@@ -4,7 +4,7 @@ let jokeHeading = document.getElementById("headingJoke")
 
 jokeButton.addEventListener("click", function () {
     
-    let jokeArray = [" What is fast, loud and crunchy? A rocket chip.",
+let jokeArray = [" What is fast, loud and crunchy? A rocket chip.",
     
 ," How does the ocean say hi? It waves!"
 
@@ -100,8 +100,7 @@ jokeButton.addEventListener("click", function () {
 
 ," When does a joke become a “dad” joke? When the punchline is a parent."
 
-," How much did the man sell his dead batteries for? Nothing, they were free of charge"
-]
+," How much did the man sell his dead batteries for? Nothing, they were free of charge" ]
 
     let randomJoke = jokeArray[Math.floor(Math.random() * jokeArray.length)]
     jokeHeading.innerHTML = randomJoke
